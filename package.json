@@ -1,0 +1,23 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "Understanding webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack src/js/app.js dist/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandanch/yt-webpack2-basics.git"
+  },
+  "author": "chandanch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chandanch/yt-webpack2-basics/issues"
+  },
+  "homepage": "https://github.com/chandanch/yt-webpack2-basics#readme",
+  "devDependencies": {
+    "webpack": "^3.9.1"
+  }
+}
